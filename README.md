@@ -9,3 +9,4 @@ Stock Data for tracking Trades and Info Across Different Brokers
       1. Grab the ticker name, run a api call to get live info on that Ticker, store specific data in the stock DB or update data it if the ticker is already there.
       2. Then create a new position or update an existing position if purchasing the same security on the same broker.
       3. finally add the new transaction to the database, associated with the respective position and broker, etc.
+      4. edited buying and selling to adjust capital amount in broker account
